@@ -1,0 +1,925 @@
+
+@font-face {
+    font-family: rbt-bold;
+    src: url(../assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: rbt-thin;
+    src: url(../assets/fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: rbt-medium;
+    src: url(../assets/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: rbt-regular;
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: rbt-black;
+    src: url(../assets/fonts/Roboto-Black.ttf);
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.menu-icone {
+    display: none;
+}
+
+@media(max-width: 1325px) {
+    .sm-hide {
+        display: none;
+    }
+
+    .menu-icone {
+        display: block;
+    }
+    
+}
+
+@media(max-width: 1080px) {
+    .center-banner-div h1 {
+        font-size: 40px;
+    }
+    
+    .center-banner-div h5 {
+        font-size: 15px;
+    }
+    
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: rbt-regular;
+}
+
+.header-acceuil {
+    background-image: url(../assets/images/femme-africaine-enseignant-aux-enfants-classe.jpg);
+    background-size: 100% 680px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 680px;
+}
+
+.header-candidater {
+    background-image: url(../assets/images/istockphoto-1359838986-612x612.jpg);
+    background-size: 100% 680px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 680px;
+}
+
+.header-article {
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+.header-article div h2 {
+    font-size: 150px;
+    font-family: rbt-thin;
+    color: #fff;
+    position: relative;
+    top: 140px;
+}
+
+.img-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    width: 90%;
+    height: 150px;
+    background-color: #D9D9D9;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 20px 0 20px 20px;
+}
+
+.a-style a {
+    text-decoration: underline;
+    color: #006DAA;
+    font-size: 18px;
+    margin-right: 55px;
+}
+
+.a-style {
+    justify-content: right !important;
+}
+
+.img-banner1 {
+    background-image: url(../assets/images/240_F_39763637_xmKBCOzyXz7oA9OJoxh97ApRG7iMxsbl.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+}
+
+.img-banner2 {
+    background-image: url(../assets/images/diplome-femme-africaine-reveuse-souriant-pensant-assis-livres_176420-14342.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+}
+
+.img-banner3 {
+    background-image: url(../assets/images/football-composition-with-slate.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+}
+
+.img-banner4 {
+    background-image: url(../assets/images/capture-ecran-enfant-sexe-masculin-noir-effacant-tableau-blanc.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+}
+
+.img-banner5 {
+    background-image: url(../assets/images/240_F_39763637_xmKBCOzyXz7oA9OJoxh97ApRG7iMxsbl.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 150px;
+}
+
+.header-article-banner {
+    background-image: url(../assets/images/240_F_643756218_cyKSvX4eDScGIZf2G99kzoJhAwAY3qnp.jpg);
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    /* margin-top: 60px; */
+}
+
+.nav-acceuil {
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff81;
+    position: fixed;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.nav-article {
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    position: fixed;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-bar-container {
+    padding: 5px 0 0 20px;
+}
+
+.container {
+    /* margin: 20px 20px 0 0; */
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-image: url(../assets/icones/_0a03e0cf-9bf6-4e0f-aeb1-8b59dacd6879-removebg-preview.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+}
+
+.menu-right {
+    margin-left: 680px;
+}
+
+.menu-bar a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 16px 10px 0 10px;
+    font-size: 17px;
+    font-family: rbt-medium;
+}
+
+.d-grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 308px;
+    padding-top: 90px;
+    padding-right: 50px;
+}
+
+.reseaux-grid {
+    width: 308px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 120px;
+}
+
+.reseau-1, .reseau-2, .reseau-3, .reseau-4{
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    padding: 25px;
+    position: relative;
+    top: 28px;
+    margin-left: 10px;
+}
+
+.reseau-1 {
+    background-image: url(../assets/icones/facebook.png);
+}
+
+.reseau-2 {
+    background-image: url(../assets/icones/linkedin.png);
+}
+
+.reseau-3 {
+    background-image: url(../assets/icones/x.png);
+}
+
+.reseau-4 {
+    background-image: url(../assets/icones/message.png);
+}
+
+.reseau-5 {
+    background-image: url(../assets/icones/whatsapp-removebg-preview.png);
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: 58px 58px;
+    padding: 25px;
+    position: relative;
+    top: 24px;
+}
+
+.banner-d-grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 70% 1fr;
+    height: 400px;
+    margin-top: 65px;
+}
+
+.center-banner-div h1 {
+    font-size: 60px;
+}
+
+.center-banner-div h5 {
+    font-size: 25px;
+    font-family: rbt-thin;
+}
+
+.center-banner-div {
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-color: #00000069;
+    border-radius: 35px;
+    padding: 50px 20px 0 20px;
+}
+
+body h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.d-grid-3-devise {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 500px;
+    padding: 20px 0 20px 0;
+}
+
+.devise1, .devise2, .devise3 {
+    width: 350px;
+    height: 350px;
+    border: solid 5px #fff;
+    border-radius: 350px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+}
+
+.dev1, .dev2, .dev3 {
+    width: 350px;
+    height: 100%;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.d-grid-3-devise div div h4 {
+    margin-left: 20px;
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+}
+
+.devise1 {
+    background-image: url(../assets/images/shallow-focus-shot-african-child-learning-school.jpg);
+}
+
+.devise2 {
+    background-image: url(../assets/images/vue-face-du-concept-covid19-ecole.jpg);
+}
+
+.devise3 {
+    background-image: url(../assets/images/focus-two-young-afro-american-female-students-dressed-black-graduation-gown-campus-as-background.jpg);
+}
+
+.dev1 {
+    position: relative;
+    left: 170px;
+}
+
+.dev2 {
+    position: relative;
+    right: 0;
+}
+
+.dev3 {
+    position: relative;
+    right: 150px;
+}
+
+.cantine {
+    background-image: url(../assets/images/view-delicious-ready-eat-meal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Sale-de-sport {
+    background-image: url(../assets/images/football-composition-with-slate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Bibliotheque {
+    background-image: url(../assets/images/young-student-working-assignment.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Sale-de-jeux {
+    background-image: url(../assets/images/group-three-african-american-friends-play-table-games.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.d-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    text-align: center;
+    column-gap: 50px;
+    padding: 0 60px;
+}
+
+.d-grid-2 div h6 {
+    font-size: 30px;
+}
+
+.separator {
+    width: 300px;
+    height: 10px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.img-drole {
+    background-image: url(../assets/images/portrait-young-boy-school-student.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    width: 400px;
+    height: 400px;
+    border-radius: 400px 400px 20px 400px;
+}
+
+.img-drole2 {
+    background-image: url(../assets/images/young-african-american-man-graduation-gown-cap-looking-camera.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    width: 400px;
+    height: 400px;
+    border-radius: 400px 400px 20px 400px;
+}
+
+.img-drole3 {
+    background-image: url(../assets/images/85280636-écolière-écrit-à-son-bureau-dans-la-leçon-de-l-école-primaire.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    width: 400px;
+    height: 400px;
+    border-radius: 400px 400px 20px 400px;
+}
+
+.img-drole4 {
+    background-image: url(../assets/images/ecolier-tenue-copie-espace-cahier.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    width: 400px;
+    height: 400px;
+    border-radius: 400px 400px 20px 400px;
+}
+
+
+.d-grid-2-2 {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    height: 400px;
+    text-align: center;
+    column-gap: 150px;
+    padding: 0 60px;
+}
+
+.d-grid-2-2 div a {
+    color: #006DAA;
+    text-decoration: underline;
+}
+
+.d-grid-2-2 div p {
+    margin-top: 50px;
+}
+
+.form-big-div {
+    background-color: #F5F5F5;
+    border-radius: 25px;
+    width: 900px;
+    height: 800px;
+    margin-bottom: 100px;
+}
+
+.contact {
+    background-color: #fff;
+    width: 350px;
+    height: 150px;
+    border-radius: 15px;
+    padding: 20px 20px 0 20px;
+    margin: 20px 0 40px 0;
+}
+
+.text-input {
+    width: 400px;
+    height: 35px;
+    border: 1px solid #c4c4c4;
+    padding: 0 10px;
+}
+
+.text-area-input1 {
+    width: 400px;
+    height: 100px;
+    border: none;
+    padding:10px;
+    border: 1px solid #c4c4c4;
+}
+
+.input-styles {
+    border-radius: 15px;
+}
+
+.text-area-input2 {
+    width: 400px;
+    height: 250px;
+    border: none;
+    padding:10px;
+    border: 1px solid #c4c4c4;
+}
+
+.footer-div {
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    height: 390px;
+}
+
+.footer-div a {
+    color: #fff;
+    font-family: rbt-thin;
+    font-size: 14px;
+}
+
+.candidater h5 {
+    font-size: 30px;
+    font-family: rbt-medium;
+    text-align: center;
+}
+
+.candidater header {
+    font-size: 50px;
+    font-family: rbt-thin;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    padding: 19px 25px;
+    height: 260px;
+}
+
+.footer-contain-1 h3{
+    margin-left: 10px;
+}
+
+.footer-contain-4 h3{
+    position: relative;
+    right: 52px
+}
+/* 
+.footer-contain-2, .footer-contain-3 {
+    /* margin-left: 40px; 
+} */
+
+.footer-contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 90px;
+    width: 100%;
+    /* height: 100px; */
+}
+
+.footer-contain div ul {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.footer-contain div ul li {
+    margin-top: 5px;
+}
+
+.footer-contain-4 .reseaux-grid1 {
+    margin-top: 38px;
+}
+
+.footer-contain div h3{
+    margin-top: 40px;
+    margin-left: 60px;
+    text-align: left;
+}
+
+
+.reseaux-grid1 {
+    width: 200px;
+    height: 55px;
+    margin-right: 20px;
+}
+
+
+.reseau-1-1, .reseau-2-1, .reseau-3-1, .reseau-4-1{
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    padding: 25px;
+    position: relative;
+    top: 28px;
+}
+
+.reseau-1-1 {
+    background-image: url(../assets/icones/facebook.png);
+}
+
+.reseau-2-1 {
+    background-image: url(../assets/icones/linkedin.png);
+}
+
+.reseau-3-1 {
+    background-image: url(../assets/icones/x.png);
+}
+
+.reseau-4-1 {
+    background-image: url(../assets/icones/message.png);
+}
+
+.reseau-5-1 {
+    background-image: url(../assets/icones/whatsapp-removebg-preview.png);
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: 43px 43px;
+    padding: 25px;
+    position: relative;
+    top: 24px;
+}
+
+.icone-countrie-div {
+    gap: 900px;
+    padding: 20px 0 0 0;
+    height: 50px;
+    border-top: 1px solid #fff;
+}
+
+.icone-countrie {
+    background-image: url(../assets/icones/téléchargement.png);
+    width: 30px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 30px 20px;
+    padding: 25px;
+}
+
+.icone-countrie-div h6{
+    font-family: rbt-thin;
+    font-size: 14px;
+}
+
+.button-sumit {
+    width: 200px;
+    height: 55px;
+    display: inline-block;
+    background-color: #1C4EFF;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    font-family: rbt-bold;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    column-gap: 40px;
+}
+
+.contact ul li {
+    margin-top: 8px;
+}
+
+.image-form {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background-image: url(../assets/images/finger-pushing-virtual-button_1134-264.jpg);
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+}
+
+.reseau-send {
+    background-image: url(../assets/icones/send_rouge-removebg-preview.png);
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: 43px 43px;
+    padding: 25px;
+    position: relative;
+    top: 16px;
+    right: 8px;
+}
+
+.documentation .header-article .header-article-banner-doc {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.356)), url(../assets/images/depositphotos_220100076-stock-photo-stacks-documents-files-black-clip.jpg);
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+.div-details {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    margin-top: 10px;
+}
+
+.lond-description {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 80%;
+    height: 900px;
+    text-align: center;
+    padding: 50px;
+}
+
+.text-art {
+    width: 950px;
+    font-size: 50px;
+    font-family: rbt-medium;
+    text-align: center;
+    margin-top: -180px;
+}
+
+.details-article-div {
+    background-image: url(../assets/images/diplome-femme-africaine-reveuse-souriant-pensant-assis-livres_176420-14342.jpg);
+    background-size: 950px 550px;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 950px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.det-articles header h3{
+    font-size: 80px;
+    font-family: rbt-bold;
+    text-align: left;
+    margin-left: 220px;
+    /* position: relative;
+    top: 100px; */
+}
+
+.det-articles {
+    background-color: #F5F5F5;
+}
+
+.div-details a {
+    color: #006DAA;
+    font-size: 20px;
+    font-family: rbt-bold;
+}
+
+.d-grid-2-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 350px;
+    text-align: center;
+    column-gap: 20px;
+    background-color: #0000004f;
+    width: 65%;
+    padding-right: 50px;
+}
+
+.d-grid-2-e-s-p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 450px;
+    text-align: center;
+    column-gap: 10px;
+    width: 80%;
+    padding-right: 50px;
+}
+
+.e-s-p-div {
+    padding-top: 110px;
+}
+
+.hr-separator {
+    width: 250px;
+    height: 2px;
+    background-color: #000000;
+}
+
+.d-grid-2-article h6{
+    font-size: 30px;
+    font-family: rbt-black;
+}
+
+.d-grid-2-e-s-p h6{
+    font-size: 30px;
+    font-family: rbt-black;
+}
+
+.article-img-1 {
+    background-image: url(../assets/images/portrait-young-boy-school-student.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 400px;
+    height: 350px;
+    width: 350px;
+}
+
+.article-img-2 {
+    background-image: url(../assets/images/young-african-american-man-graduation-gown-cap-looking-camera.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 400px;
+    height: 350px;
+    width: 350px;
+}
+
+.article-img-3 {
+    background-image: url(../assets/images/85280636-écolière-écrit-à-son-bureau-dans-la-leçon-de-l-école-primaire.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 400px;
+    height: 350px;
+    width: 350px;
+}
+
+.article-img-4 {
+    background-image: url(../assets/images/ecolier-tenue-copie-espace-cahier.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 400px;
+    height: 350px;
+    width: 350px;
+}
+
+.doc-img-1 {
+    background-image: url(../assets/images/depositphotos_220100076-stock-photo-stacks-documents-files-black-clip.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 400px;
+    height: 350px;
+    width: 350px;
+}
+
+.doc-img-2 {
+    background-image: url(../assets/images/young-student-working-assignment.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 400px;
+    height: 350px;
+    width: 350px;
+}
+
+.doc-img-3 {
+    background-image: url(../assets/images/depositphotos_220100076-stock-photo-stacks-documents-files-black-clip.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 400px;
+    height: 350px;
+    width: 350px;
+}
+
+.doc-img-4 {
+    background-image: url(../assets/images/young-student-working-assignment.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 400px;
+    height: 350px;
+    width: 350px;
+}
+
+.e-s-p-img-1 {
+    background-image: url(../assets/images/homme-noir-expression-heureuse_155003-11384.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 450px;
+    border-radius: 450px;
+}
+
+.e-s-p-img-2 {
+    background-image: url(../assets/images/vue-face-femme-confiante-studio_23-2148410850.png);
+    background-repeat: no-repeat;
+    background-size: 450px 500px;
+    height: 450px;
+    width: 450px;
+    border-radius: 450px;
+}
+
+.e-s-p-img-3 {
+    background-image: url(../assets/images/mec-afro-americain-tient-dollars-dans-deux-mains-portant-lunettes-soleil-costume-noir_8353-10354.jpg);
+    background-repeat: no-repeat;
+    background-size: 450px 500px;
+    height: 450px;
+    width: 450px;
+    border-radius: 450px;
+}
+
+.e-s-p-history {
+    width: 90%;
+    height: 1200px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.e-s-p-history span {
+    font-family: rbt-black;
+}
+
+.e-s-p {
+    background-color: #F5F5F5;
+}
+
+.e-s-p-img-4 {
+    background-image: url(../assets/images/above-top-view-happy-friendly-260nw-2323445585.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 450px;
+    border-radius: 450px;
+}
+
+.form-grid-cand {
+    /* width:; */
+}
+
+.text-input-smal {
+    width: 140px;
+    height: 35px;
+    border: 1px solid #c4c4c4;
+    padding: 0 10px;
+}
+
+.e-n-s-img {
+    width: 900px;
+    height: 550px;
+    background-image: url(../assets/images/conseil-dadministration.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
